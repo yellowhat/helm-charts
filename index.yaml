@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  cilium:
+  - apiVersion: v2
+    appVersion: 1.14.0-dev
+    created: "2023-06-11T17:21:21.791809426Z"
+    description: eBPF-based Networking, Security, and Observability
+    digest: d7540e0463227bdd2e802d03a9e1b02c95b7f7c6ff7dade69db38644d377bece
+    home: https://cilium.io/
+    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@main/Documentation/images/logo-solo.svg
+    name: cilium
+    urls:
+    - https://github.com/yellowhat/helm-charts/releases/download/cilium-1.14.0-dev0/cilium-1.14.0-dev0.tgz
+    version: 1.14.0-dev0
+generated: "2023-06-11T17:21:21.791819026Z"
