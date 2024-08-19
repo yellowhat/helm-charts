@@ -1,3 +1,11 @@
+# helm-chart
+
+## Prerequisities
+
+Enable Pages: `Settings` > `Pages` > `Build and deployment`:
+    * `Source`: `Deploy from a branch`
+    * `Branch`: `gh-pages`, `/ (root)`
+
 ## Usage
 
 [Helm](https://helm.sh) must be installed to use the charts.  Please refer to
