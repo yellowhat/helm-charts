@@ -3,8 +3,8 @@
 ## Prerequisities
 
 Enable Pages: `Settings` > `Pages` > `Build and deployment`:
-    * `Source`: `Deploy from a branch`
-    * `Branch`: `gh-pages`, `/ (root)`
+  * `Source`: `Deploy from a branch`
+  * `Branch`: `gh-pages`, `/ (root)`
 
 ## Usage
 
