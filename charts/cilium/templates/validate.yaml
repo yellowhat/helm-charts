@@ -60,7 +60,7 @@
   {{- end }}
 {{- end }}
 
-{{- if and .Values.ingressController.enabled (or (eq .Values.ingressController.service.type "LoadBalancer") (eq .Values.ingressController.service.type "NodePort"))}}
+{{- if and .Values.ingressController.enabled (or (eq .Values.ingressController.service.type "LoadBalancer") (eq .Values.ingressController.service.type "NodePort")) (not .Values.ingressController.hostNetwork.enabled)}}
   {{- if not (or (eq .Values.ingressController.service.externalTrafficPolicy "Cluster") (eq .Values.ingressController.service.externalTrafficPolicy "Local")) }}
     {{ fail "Cilium Ingress services of type 'LoadBalancer' or 'NodePort' need an externalTrafficPolicy set to 'Cluster' or 'Local'." }}
   {{- end }}
