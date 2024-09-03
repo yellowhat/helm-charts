@@ -297,4 +297,24 @@ entries:
     urls:
     - https://github.com/yellowhat/helm-charts/releases/download/cilium-1.14.0-dev0/cilium-1.14.0-dev0.tgz
     version: 1.14.0-dev0
-generated: "2024-08-19T06:54:19.631840082Z"
+  opentelemetry-collector:
+  - apiVersion: v2
+    appVersion: 0.108.0
+    created: "2024-09-03T15:18:04.530591888Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 20b5da89789bf6e0bb84a9fa7fc8aa19b37ec545981f6490c7a4b6d04cc1506f
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/yellowhat/helm-charts/releases/download/opentelemetry-collector-0.104.0/opentelemetry-collector-0.104.0.tgz
+    version: 0.104.0
+generated: "2024-09-03T15:18:04.530614251Z"
